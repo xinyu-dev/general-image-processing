@@ -40,25 +40,25 @@ Input files are stored in `input_PNG_logo` folder. The script reads every `*.png
 
 For the purpose of illustration, in the following examples, I marked the bounding box for the logo in GREY and the whole image frame in RED.
 
-1. Resizing `examples/lonza-transparentBackground.png`. The raw images has a transparent background
+1. Resizing `logoResizer/examples/lonza-transparentBackground.png`. The raw images has a transparent background
 
 **Before**
 
-![lonza-raw](examples/lonza-transparentBackground.png)
+![lonza-raw](logoResizer/examples/harbormed-2.png)
 
 **After**
 
 ![lonza-after](examples/lonza-2.png)
 
-2. Resizing `examples/harbormed-transparentBackground.png`. The raw images has a white background
+2. Resizing `logoResizer/examples/harbormed-transparentBackground.png`. The raw images has a white background
 
 **Before**
 
-![harbormed-raw](examples/harbormed-whiteBacground.png)
+![harbormed-raw](logoResizer/examples/harbormed-whiteBacground.png)
 
 **After**
 
-![harbormed-after](examples/harbormed-2.png)
+![harbormed-after](logoResizer/examples/harbormed-2.png)
 
 
 ## Relevant Files
