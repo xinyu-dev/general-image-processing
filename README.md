@@ -34,7 +34,8 @@ Extra white background of the original logo image is trimmed prior to resizing t
 
 5. Process multiple files and batch export to destination folder
 
-Input files are stored in `input_PNG_logo` folder. The script reads every `*.png` file in that folder, and process them, and export the result for each image to the `result` folder. A zip file of the `result` folder is also recreated for convenience of downloading from web-hosted jupyter notebooks.
+Input files are stored in `input_PNG_JPG_logo` folder. The script reads every `*.png` and `*.JPG` file in that folder, and process them, and export the result for each image to the `result` folder. A zip file of the `result` folder is also recreated for convenience of downloading from web-hosted jupyter notebooks.
+
 
 ## Examples
 
