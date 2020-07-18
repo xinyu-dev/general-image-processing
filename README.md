@@ -96,18 +96,18 @@ Input files are stored in `input_PNG_images` folder. The script reads every `*.p
 
 **Before**
 
-![simple-bg](input_PNG_images/simple-background.png)
+![simple-bg](headshotCropper/input_PNG_images/simple-background.png)
 
 **After**
 
-![simple-bg-after](result/simple-background_2.png)
+![simple-bg-after](headshotCropper/result/simple-background_2.png)
 
 
 ### 2. Complex background
 
 **Before**
 
-![complex-1](input_PNG_images/complex_background1.png)
+![complex-1](headshotCropper/input_PNG_images/complex_background1.png)
 
 
 **After**
@@ -116,11 +116,11 @@ Input files are stored in `input_PNG_images` folder. The script reads every `*.p
 
 **Before**
 
-![complex-2](input_PNG_images/complex_background2.png)
+![complex-2](headshotCropper/input_PNG_images/complex_background2.png)
 
 **After**
 
-![complex-2-after](result/complex_background2_2.png)
+![complex-2-after](headshotCropper/result/complex_background2_2.png)
 
 *Example pictures credit: freepik (obtained under CAS's image license with freepik)*
 
