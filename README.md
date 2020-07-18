@@ -6,7 +6,7 @@ This is part of the volunteer projects I made for the Chinese Antibody Society.
 
 # LogoResizer
 
-## Usage
+## Description
 Batch-transform sponsor logos to uniform dimensions without shape distortion.
 
 ## Features
@@ -64,5 +64,67 @@ For the purpose of illustration, in the following examples, I marked the boundin
 
 ## Relevant Files
 See everything in `logoResizer` folder
+
+# Headshot Cropper
+
+## Description
+Batch-process images: first use openCV to detect faces, then expand the face bounding box to max possible, then crop a circle out of the bounding box, finally soften the edges.
+
+## Features
+
+**1. 1-line code for face recognition and cropping into a circle image with feathered (adjustable) edges, on a transparent background**
+
+```python
+    result=blurEdge(cropImage(img, faceDetection(img_cv)), blur_radius, offset=0)
+```
+
+**2. Process multiple files and batch export to destination folder**
+
+Input files are stored in `input_PNG_images` folder. The script reads every `*.png` file in that folder, and process them, and export the result for each image to the `result` folder. A zip file of the `result` folder is also recreated for convenience of downloading from web-hosted jupyter notebooks.
+
+**Note:**
+
+**1. If multiple faces are detected in a single photo, only the first face box will be extracted. The program does a generally good job at handling professional headshot, but it can also handle images with a certain level of complex backgrounds (depending on the accuracy of the openCV face detection)**
+
+**2. For the simplicity of demo,  script only reads PNG images, but you can change this parameter in the `os.path.join(img_path, '*.png')` line**
+
+## Examples
+
+**Note: All resulting images resized to 200x200px. This parameter is user-adjustable. The extent of edge feather effect is also adjustable**
+
+### **1. Simple background**
+
+**Before**
+
+![simple-bg](input_PNG_images/simple-background.png)
+
+**After**
+
+![simple-bg-after](result/simple-background_2.png)
+
+
+### 2. Complex background
+
+**Before**
+
+![complex-1](input_PNG_images/complex_background1.png)
+
+
+**After**
+
+![complex-1-after](result/complex_background1_2.png)
+
+**Before**
+
+![complex-2](input_PNG_images/complex_background2.png)
+
+**After**
+
+![complex-2-after](result/complex_background2_2.png)
+
+*Example pictures credit: freepik (obtained under CAS's image license with freepik)*
+
+
+
 
 
