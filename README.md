@@ -1,5 +1,11 @@
 # general-image-processing
-A collection of scripts for batch processing images: 1) dynamically resizes text and images to fit bounding box. 2)Reads data from CS,  apply text style, and output image files 
+A collection of Python scripts for batch-processing images and facial recognition. 
+
+1. “Logo Resizer”: dynamically resizes images to fit bounding box.
+ 
+2. “Headshot Cropper”: identifies faces using CV2, then extracts faces into round thumbnail images and resizes them. 
+
+3. “Volunteer Certificate”: reads data from CSV, dynamically resizes text to fit bounding box, then applies text style, and outputs image as pdf
 
 This is part of the volunteer projects I made for the Chinese Antibody Society.
 
