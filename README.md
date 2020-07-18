@@ -160,11 +160,11 @@ The script reads data from CSV, dynamically resizes text to fit bounding box, th
 
 #### 1-Year Term (e.g. 2018)
 
-![oneyearterm](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110384/github/one_year_term_jz6xc0.png)
+![oneyearterm](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110913/github/one_year_term_oan1gr.png)
 
 
 ### Unique file names
-See `Zhidan Tu.pdf`, `Zhidan Tu_1.pdf` and `Zhidan Tu_2.pdf` in the output folder 
+See `Zack Zhang.pdf`, `Zack Zhang_1.pdf` and `Zack Zhang_2.pdf` in the output folder 
 
 
 
