@@ -131,6 +131,41 @@ Input files are stored in `input_PNG_images` folder. The script reads every `*.p
 *Example pictures credit: freepik (obtained under CAS's image license with freepik)*
 
 
+# Volunteer Certificate
+
+## Description
+
+The script reads data from CSV, dynamically resizes text to fit bounding box, then applies text style, and outputs image as pdf. 
+
+## Features
+
+1. The script loads an empty image template (e.g. a **.png** file), then reads data from csv file (columns: **name**, **start**, **end**). The **start** and **end** columns are the year the volunteer joined and left respectively.
+
+2. Dynamic text-resizing: If a volunteer has a very long name, its font size will decrease gradually until the text is able to fit in the bounding box.
+
+3. 1-year term and multi-year terms: If a volunteer joined and left in the same year (i.e. in the csv file,  `start == 2020`, `end == 2020 ` ), then on the certificate, only that year will appear in the lower right corner (e.g. `2020`). Otherwise, on the certificate the year will appear as a range (e.g. `2016 - 2020`).
+
+4. Output file as **name.pdf**, where the **name** is the volunteer name. For convenience a zip file of all pdf outputs is also generated. 
+
+5. Unique file names: In a scenario where volunteers have the same name, the output file for the 2nd volunteer will say **name_1.pdf** (where **name** is the name of the volunteer), and for the 3rd volunteer it will say **name_2.pdf**, etc. In this you don't have to worry about overwriting the previous files.
+
+## Examples 
+
+### Long Name
+![longname](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110216/github/long_name_ppezcy.png)
+
+### 1-Year Term vs Multi-Year Term
+
+#### Multi-Year Term (e.g. 2019-2020, see above)
+
+#### 1-Year Term (e.g. 2018)
+
+![oneyearterm](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110384/github/one_year_term_jz6xc0.png)
+
+
+### Unique file names
+See `Zhidan Tu.pdf`, `Zhidan Tu_1.pdf` and `Zhidan Tu_2.pdf` in the output folder 
+
 
 
 
