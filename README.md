@@ -112,7 +112,7 @@ Input files are stored in `input_PNG_images` folder. The script reads every `*.p
 
 **After**
 
-![complex-1-after](result/complex_background1_2.png)
+![complex-1-after](headshotCropper/result/complex_background1_2.png)
 
 **Before**
 
