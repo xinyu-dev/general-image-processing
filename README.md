@@ -152,7 +152,7 @@ The script reads data from CSV, dynamically resizes text to fit bounding box, th
 ## Examples 
 
 ### Long Name
-![longname](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110216/github/long_name_ppezcy.png)
+![longname](volunteerCertificate/example/Fallahabad%20Rojeev%20Raehul%20Bhandhi.pdf)
 
 ### 1-Year Term vs Multi-Year Term
 
@@ -160,11 +160,11 @@ The script reads data from CSV, dynamically resizes text to fit bounding box, th
 
 #### 1-Year Term (e.g. 2018)
 
-![oneyearterm](https://res.cloudinary.com/dpfqlyh21/image/upload/v1595110913/github/one_year_term_oan1gr.png)
+![oneyearterm](volunteerCertificate/example/Jane%20Doe.pdf)
 
 
 ### Unique file names
-See `Zack Zhang.pdf`, `Zack Zhang_1.pdf` and `Zack Zhang_2.pdf` in the output folder 
+See `Zack Zhang.pdf`, `Zack Zhang_1.pdf` and `Zack Zhang_2.pdf` in the example folder 
 
 
 
