@@ -51,21 +51,21 @@ For the purpose of illustration, in the following examples, I marked the boundin
 
 **Before**
 
-![lonza-raw](logoResizer/examples/lonza-transparentBackground.png)
+![lonza-raw](logo-resizer/examples/lonza-transparentBackground.png)
 
 **After**
 
-![lonza-after](logoResizer/examples/lonza-2.png)
+![lonza-after](logo-resizer/examples/lonza-2.png)
 
 2. Resizing `logoResizer/examples/harbormed-transparentBackground.png`. The raw images has a white background
 
 **Before**
 
-![harbormed-raw](logoResizer/examples/harbormed-whiteBacground.png)
+![harbormed-raw](logo-resizer/examples/harbormed-whiteBacground.png)
 
 **After**
 
-![harbormed-after](logoResizer/examples/harbormed-2.png)
+![harbormed-after](logo-resizer/examples/harbormed-2.png)
 
 
 ## Relevant Files
@@ -102,31 +102,31 @@ Input files are stored in `input_PNG_images` folder. The script reads every `*.p
 
 **Before**
 
-![simple-bg](headshotCropper/input_PNG_images/simple-background.png)
+![simple-bg](headshot-cropper/input_PNG_images/simple-background.png)
 
 **After**
 
-![simple-bg-after](headshotCropper/result/simple-background_2.png)
+![simple-bg-after](headshot-cropper/result/simple-background_2.png)
 
 
 ### 2. Complex background
 
 **Before**
 
-![complex-1](headshotCropper/input_PNG_images/complex_background1.png)
+![complex-1](headshot-cropper/input_PNG_images/complex_background1.png)
 
 
 **After**
 
-![complex-1-after](headshotCropper/result/complex_background1_2.png)
+![complex-1-after](headshot-cropper/result/complex_background1_2.png)
 
 **Before**
 
-![complex-2](headshotCropper/input_PNG_images/complex_background2.png)
+![complex-2](headshot-cropper/input_PNG_images/complex_background2.png)
 
 **After**
 
-![complex-2-after](headshotCropper/result/complex_background2_2.png)
+![complex-2-after](headshot-cropper/result/complex_background2_2.png)
 
 *Example pictures credit: freepik (obtained under CAS's image license with freepik)*
 
@@ -167,5 +167,15 @@ The script reads data from CSV, dynamically resizes text to fit bounding box, th
 See `Zack Zhang.pdf`, `Zack Zhang_1.pdf` and `Zack Zhang_2.pdf` in the example folder 
 
 
+# Webinar Banner
+## Description
+Generate webinar banner through code. Put text-based information in an excel file, and have speaker headshot as a file. Code will put the information together on a selected template. 
 
+## Features
+1, Supports multi-line text writing with automatic textwrap and font size adjustment. 
+2. Supports single-line text writing with automatic font size adjustment.
+3. Speaker headshot can be generated using the `headshot-cropper` code described above. 
+
+## Examples
+![example](https://res.cloudinary.com/dwawcx2hl/image/upload/v1609256255/github/result_sncxai.png)
 
