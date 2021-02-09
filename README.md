@@ -51,21 +51,21 @@ For the purpose of illustration, in the following examples, I marked the boundin
 
 **Before**
 
-![lonza-raw](logo-resizer/examples/lonza-transparentBackground.png)
+![lonza-raw](logo-resizer/example/lonza-transparentBackground.png)
 
 **After**
 
-![lonza-after](logo-resizer/examples/lonza-2.png)
+![lonza-after](logo-resizer/example/lonza-2.png)
 
 2. Resizing `logoResizer/examples/harbormed-transparentBackground.png`. The raw images has a white background
 
 **Before**
 
-![harbormed-raw](logo-resizer/examples/harbormed-whiteBacground.png)
+![harbormed-raw](logo-resizer/example/harbormed-whiteBacground.png)
 
 **After**
 
-![harbormed-after](logo-resizer/examples/harbormed-2.png)
+![harbormed-after](logo-resizer/example/harbormed-2.png)
 
 
 ## Relevant Files
