@@ -5,7 +5,9 @@
 *.zip
 cas-data/
 cas-result/
+cas-results/
 cas-templates/
+cas-template/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
