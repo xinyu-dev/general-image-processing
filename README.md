@@ -179,3 +179,5 @@ Generate webinar banner through code. Put text-based information in an excel fil
 ## Examples
 ![example](https://res.cloudinary.com/dwawcx2hl/image/upload/v1609256255/github/result_sncxai.png)
 
+# New Year Card
+## Description

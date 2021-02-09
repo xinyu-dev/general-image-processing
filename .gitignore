@@ -2,9 +2,12 @@
 .idea
 
 # mine
+*.zip
 cas-data/
-templates/
-! templates/Certificate_Demo.png
+cas-result/
+
+volunteer-certificate/templates/
+!volunteer-certificate/templates/Certificate_Demo.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
