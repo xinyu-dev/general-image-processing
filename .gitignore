@@ -5,9 +5,7 @@
 *.zip
 cas-data/
 cas-result/
-
-volunteer-certificate/templates/
-!volunteer-certificate/templates/Certificate_Demo.png
+cas-templates/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
