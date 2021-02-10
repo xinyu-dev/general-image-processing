@@ -172,7 +172,7 @@ See `Zack Zhang.pdf`, `Zack Zhang_1.pdf` and `Zack Zhang_2.pdf` in the example f
 Generate webinar banner through code. Put text-based information in an excel file, and have speaker headshot as a file. Code will put the information together on a selected template. 
 
 ## Features
-1, Supports multi-line text writing with automatic textwrap and font size adjustment. 
+1. Supports multi-line text writing with automatic textwrap and font size adjustment. 
 2. Supports single-line text writing with automatic font size adjustment.
 3. Speaker headshot can be generated using the `headshot-cropper` code described above. 
 
@@ -181,3 +181,12 @@ Generate webinar banner through code. Put text-based information in an excel fil
 
 # New Year Card
 ## Description
+
+Generate back of new year card (name, address) using excel input
+1. Supports multi-line text writing with automatic textwrap and font size adjustment. 
+2. Supports single-line text writing with automatic font size adjustment.
+3. Supports both Chinese and English
+
+![](https://res.cloudinary.com/dwawcx2hl/image/upload/v1612917883/github/0-Xin_Yu_sv0d4j.png)
+![](https://res.cloudinary.com/dwawcx2hl/image/upload/v1612917883/github/0-%E6%88%91%E7%9A%84%E5%A7%93%E5%90%8D_vmbvfu.png)
+
